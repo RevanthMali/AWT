@@ -32,7 +32,7 @@ const student = new Student({name: "student1",branch:"IT"});
     } catch (err) {
         console.log(err)
     }
-})();
+});
 
 
  
