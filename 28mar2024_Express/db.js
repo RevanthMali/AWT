@@ -9,7 +9,6 @@ mongoose.connect("mongodb://0.0.0.0:27017/Student")
 })
 
 // Student schema
-
 const StudentSchema = new mongoose.Schema({
     name:{
         type:String,
