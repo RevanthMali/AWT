@@ -1,7 +1,7 @@
-const DashBoard= ()=>{
+const DashBoard= ({name})=>{
     return (
         <>
-        This is your DashBoard!
+        <h1>`Hello! ${name}`</h1> 
         </>
     )
 } 

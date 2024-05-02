@@ -2,15 +2,16 @@ import { BrowserRouter, Route,Routes } from 'react-router-dom'
 import './App.css'
 import Login from './components/Login'
 import DashBoard from './components/DashBoard'
+import Home from './components/Home'
 function App() {
   
 
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
         <Routes>
-          <Route path={"/"} element={<Login/>}/> 
+          <Route path={"/login"} element={<Login/>}/> 
           <Route path={"/dashboard"} element={<DashBoard/>}/> 
-          {/* <Route path={"/"} element={</>}/> */}
+          <Route path={"/home"} element={<Home/>}/>
         </Routes>
     </BrowserRouter>
   )
